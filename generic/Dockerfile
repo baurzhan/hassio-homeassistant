@@ -1,5 +1,5 @@
 ARG BUILD_ARCH
-FROM ${BUILD_ARCH}
+FROM $BUILD_ARCH
 WORKDIR /usr/src
 
 ## Setup Home Assistant
