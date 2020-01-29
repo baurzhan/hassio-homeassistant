@@ -49,13 +49,13 @@ RUN apk add --no-cache \
     openssh-client \
 #    pianobar \
 #    postgresql-libs \
-    socat \
+    socat 
 #    unixodbc \
 #    zlib
 
 ###
 # Create /etc/odbcinst.ini for FreeTDS ODBC driver
-COPY odbcinst.ini /etc/
+#COPY odbcinst.ini /etc/
 
 ####
 ## Install pip module for component/homeassistant
