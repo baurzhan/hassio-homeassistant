@@ -1,6 +1,6 @@
 ARG BUILD_ARCH
 FROM oilab/${BUILD_ARCH}-homeassistant-base:5.3
-
+ENV BUILD_ARCH=${BUILD_ARCH}
 WORKDIR /usr/src
 
 ## Setup Home Assistant
