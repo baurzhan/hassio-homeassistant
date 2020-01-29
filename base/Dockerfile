@@ -52,6 +52,7 @@ RUN apk add --no-cache \
 
 #    pianobar \
 #    postgresql-libs \
+
     pulseaudio-utils \
     socat \
 
@@ -59,6 +60,7 @@ RUN apk add --no-cache \
 #    zlib
 
 #COPY odbcinst.ini /etc/
+
 ####
 ## Install pip module for component/homeassistant
 COPY requirements.txt /usr/src/
