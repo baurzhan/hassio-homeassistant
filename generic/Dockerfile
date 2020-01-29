@@ -1,5 +1,5 @@
-ARG BUILD_FROM
-FROM ${BUILD_FROM}:5.2
+ARG BUILD_ARCH
+FROM "oilab/${BUILD_ARCH}-homeassistant-base:5.3"
 
 WORKDIR /usr/src
 
