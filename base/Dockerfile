@@ -54,7 +54,7 @@ RUN apk add --no-cache \
 #    postgresql-libs \
 
     pulseaudio-utils \
-    socat \
+    socat 
 
 #    unixodbc \
 #    zlib
